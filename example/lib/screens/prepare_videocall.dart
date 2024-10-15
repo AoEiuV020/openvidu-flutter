@@ -30,8 +30,7 @@ class _PrepareVideocallState extends State<PrepareVideocall> {
   void initState() {
     super.initState();
 
-    _textSessionController = TextEditingController(
-        text: 'session-flutter-${Random().nextInt(1000)}');
+    _textSessionController = TextEditingController(text: 'SessionA');
     _textUserNameController =
         TextEditingController(text: 'FlutterUser${Random().nextInt(1000)}');
     _textUrlController = TextEditingController(text: 'demos.openvidu.io');
